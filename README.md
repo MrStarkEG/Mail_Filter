@@ -1,5 +1,5 @@
 # Mail_Filter
 A Python3 Script To Filter The (Combo | Mail) List.
 
-$$ Notice
+$$ Notice \n
 When U Start The Script For A New Time You Just Need To Remove All The Text Files Containg Mails From The Last Filtering Process.
