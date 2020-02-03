@@ -2,11 +2,26 @@ import re
 import sys
 import os
 
-mail_list = sys.argv[1]
+try: 
+    mail_list = sys.argv[1]
+except IndexError:
+    print("Please. Insert A List.")
+    sys.exit()
+
 domains_list = []
 
 pattern = re.compile(r'(\w*)(@)(\w*\.)(\w*)(:*)(\w*)')
 mail_pattern = re.compile(r'(\w*)(@)(\w*\.)(\w*)')
+
+print(r"""
+__________         .__         ______    ________ .__                      __          
+\______   \_______ |__|___  __/  __  \  /  _____/ |  |__    ____   _______/  |_  ______
+ |     ___/\_  __ \|  |\  \/ />      < /   \  ___ |  |  \  /  _ \ /  ___/\   __\/  ___/
+ |    |     |  | \/|  | \   //   --   \\    \_\  \|   Y  \(  <_> )\___ \  |  |  \___ \ 
+ |____|     |__|   |__|  \_/ \______  / \______  /|___|  / \____//____  > |__| /____  >
+                                    \/         \/      \/             \/            \/ """)
+print("Author: https://fb.com/MrStarkEG")
+print('[+]---------------------------[+]')
 
 try:
     with open (mail_list, 'r') as mail: 
