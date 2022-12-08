@@ -1,11 +1,1 @@
 # Mail_Filter
-_Still Under Maintence_
-
-A Python3 Script To Filter The (Combo | Mail) List.
-
-$$ Notice :
-  When U Start The Script For A New Time You Just Need To Remove All The Text Files Containg Mails From The Last Filtering Process.
-
-
-$$ How To Use :
-  python3 filter.py [List.txt]
